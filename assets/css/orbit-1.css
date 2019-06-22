@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #2d7788;
+  color: #b84112;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -30,7 +30,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #1a454f;
+  color: #5c210a;
 }
 
 a:focus {
@@ -42,7 +42,7 @@ p {
 }
 
 .wrapper {
-  background: #42A8C0;
+  background: rgb(81, 101, 105);
   max-width: 960px;
   margin: 0 auto;
   margin-top: 30px;
@@ -53,7 +53,8 @@ p {
 }
 
 .sidebar-wrapper {
-  background: #42A8C0;
+  /*background: #42A8C0;*/
+  background: rgb(69, 81, 83);
   position: absolute;
   left: 0;
   width: 240px;
@@ -193,7 +194,7 @@ p {
   /* text-transform: uppercase; */
   font-size: 20px;
   font-weight: 500;
-  color: #2d7788;
+  color: #364547;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -213,7 +214,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2d7788;
+  background: #364547;
   text-align: center;
   font-size: 16px;
   position: relative;
@@ -264,7 +265,7 @@ p {
 }
 
 .main-wrapper .paper-title .author {
-  color: #97AAC3;
+  color: rgb(129, 138, 150);
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
@@ -275,12 +276,12 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: rgb(129, 143, 160);
 }
 
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: rgb(122, 133, 146);
 }
 
 .main-wrapper .project-title {
